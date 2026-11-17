@@ -7,3 +7,7 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=hnyqwq&theme=tokyonight&locale=zh_Hans" alt="GitHub Streak" />
 </p>
+
+<p align="center">
+  <img src="metrics.svg" alt="GitHub Metrics" />
+</p>
