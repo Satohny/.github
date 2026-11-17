@@ -9,5 +9,5 @@
 </p>
 
 <p align="center">
-  <img src="metrics.svg" alt="GitHub Metrics" />
+  <img src="https://raw.githubusercontent.com/hnyqwq/hnyqwq/main/metrics.svg" alt="GitHub Metrics" />
 </p>
