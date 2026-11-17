@@ -17,10 +17,18 @@ jobs:
           user: hnyqwq
           filename: metrics.svg
           committer_token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
-          plugin_followup: yes
-          plugin_habits: yes
-          plugin_habits_from: 200
+          base: header, metadata
+          # 全年等距提交日历
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          # 深度语言分析（克隆并分析仓库）
           plugin_languages: yes
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
-          plugin_stargazers: yes
+          # 最近活动图表
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_from: 200
+          # 代码行数完整历史
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
