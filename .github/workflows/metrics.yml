@@ -18,7 +18,6 @@ jobs:
           filename: metrics.svg
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
-          config_theme: tokyonight
           plugin_followup: yes
           plugin_habits: yes
           plugin_habits_from: 200
